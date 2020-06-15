@@ -27,3 +27,8 @@ services:
     # please note that last definitions always *replace* previous ones
 
     GuzzleHttp\ClientInterface: '@m6web_guzzlehttp'
+
+    App\Controller\StatusController:
+        tags:
+            - { name: kernel.event_listener, event: m6web.guzzlehttp}
+            - { name:  controller.service_arguments}
