@@ -1,4 +1,16 @@
 {
+    "guzzlehttp/guzzle": {
+        "version": "6.5.4"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.6.1"
+    },
+    "m6web/guzzle-http-bundle": {
+        "version": "v3.0.2"
+    },
     "php": {
         "version": "7.3"
     },
@@ -11,8 +23,14 @@
     "psr/event-dispatcher": {
         "version": "1.0.0"
     },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/log": {
         "version": "1.1.3"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
     },
     "symfony/cache": {
         "version": "v5.1.1"
@@ -97,6 +115,9 @@
         "version": "v5.1.1"
     },
     "symfony/polyfill-intl-grapheme": {
+        "version": "v1.17.0"
+    },
+    "symfony/polyfill-intl-idn": {
         "version": "v1.17.0"
     },
     "symfony/polyfill-intl-normalizer": {
